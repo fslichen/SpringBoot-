@@ -1,1 +1,4 @@
 Under the resources folder, you can name the folder as either static or public.
+Unlike putting your html files under WEB-INF, which provides protections for html or jsp file, 
+html resources under the static or public folder can be get accessed to by get request, so you'd better 
+add an interceptor.
